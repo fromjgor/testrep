@@ -1,0 +1,67 @@
+ === 4500008323 === CC2
+{
+ "CompanyCode":"1010",
+ "PurchaseOrderType":"NB",
+ "Supplier":"S1030002",
+ "Language":"DE",
+ "PaymentTerms":"0003",
+ "CashDiscount1Days":"14",
+ "CashDiscount2Days":"20",
+ "NetPaymentDays":"30",
+ "CashDiscount1Percent":"3.000",
+ "CashDiscount2Percent":"2.000",
+ "PurchasingOrganization":"1010",
+ "PurchasingGroup":"001",
+ "DocumentCurrency":"EUR",
+ "ExchangeRate":"1.00000",
+ "PurchaseOrderDate":"2020-09-08T00:00:00",
+ "CorrespncExternalReference":"PO dev",
+ "SupplierRespSalesPersonName":"Mrs. Smith",
+ "SupplierPhoneNumber":"069 47110815",
+ "SupplyingSupplier":"S1030002",
+ "IncotermsClassification":"EXW",
+ "InvoicingParty":"S1030002",
+ "CorrespncInternalReference":"GSP",
+ "IncotermsLocation1":"Mannheim",
+ "to_PurchaseOrderItem":
+ [
+  {
+   "PurchaseOrderItemText":"Handelsware 11, PD, normaler Handel",
+   "Material":"TG-D11",
+   "ManufacturerMaterial":"TG-D11",
+   "Plant":"1010",
+   "StorageLocation":"101A",
+   "MaterialGroup":"L001",
+   "OrderQuantity":"10",
+   "PurchaseOrderQuantityUnit":"PC",
+   "OrderPriceUnit":"PC",
+   "OrderPriceUnitToOrderUnitNmrtr":"1",
+   "OrdPriceUnitToOrderUnitDnmntr":"1",
+   "NetPriceAmount":"10.00",
+   "NetPriceQuantity":"1",
+   "TaxCode":"V1",
+   "TaxDeterminationDate":"2020-10-19T00:00:00",
+   "PriceIsToBePrinted":true,
+   "PurchaseOrderItemCategory":"0",
+   "GoodsReceiptIsExpected":true,
+   "InvoiceIsExpected":true,
+   "InvoiceIsGoodsReceiptBased":true,
+   "ItemNetWeight":"16.200",
+   "ItemWeightUnit":"KG",
+   "ItemVolume":"0.180",
+   "ItemVolumeUnit":"M3",
+   "ReferenceDeliveryAddressID":"27158",
+   "RequisitionerName":"GSP",
+   "ProductType":"1",
+   "to_ScheduleLine":
+   [
+    {
+     "DelivDateCategory":"2",
+     "ScheduleLineDeliveryDate":"2020-10-19T00:00:00",
+     "ScheduleLineOrderQuantity":"10.000",
+     "SchedLineStscDeliveryDate":"2020-10-19T00:00:00"
+    }
+   ]
+  }
+ ]
+}

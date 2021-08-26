@@ -1,0 +1,57 @@
+ === 4500009550 === CC2
+{
+ "CompanyCode":"1010",
+ "PurchaseOrderType":"NB",
+ "Supplier":"S1030005",
+ "Language":"DE",
+ "PaymentTerms":"0004",
+ "PurchasingOrganization":"1010",
+ "PurchasingGroup":"001",
+ "DocumentCurrency":"EUR",
+ "ExchangeRate":"1.00000",
+ "PurchaseOrderDate":"2020-09-16T00:00:00",
+ "InvoicingParty":"S1030004",
+ "to_PurchaseOrderItem":
+ [
+  {
+   "PurchaseOrderItemText":"SEMI23, PD, Lohnbearbeitung",
+   "Material":"SG23",
+   "ManufacturerMaterial":"SG23",
+   "Plant":"1010",
+   "StorageLocation":"101B",
+   "MaterialGroup":"L003",
+   "PurchasingInfoRecord":"5300000864",
+   "OrderQuantity":"200",
+   "PurchaseOrderQuantityUnit":"PC",
+   "OrderPriceUnit":"PC",
+   "OrderPriceUnitToOrderUnitNmrtr":"1",
+   "OrdPriceUnitToOrderUnitDnmntr":"1",
+   "NetPriceAmount":"0.59",
+   "NetPriceQuantity":"1",
+   "TaxDeterminationDate":"2020-09-28T00:00:00",
+   "PriceIsToBePrinted":true,
+   "OverdelivTolrtdLmtRatioInPct":"10.0",
+   "UnderdelivTolrtdLmtRatioInPct":"10.0",
+   "PurchaseOrderItemCategory":"3",
+   "GoodsReceiptIsExpected":true,
+   "InvoiceIsExpected":true,
+   "InvoiceIsGoodsReceiptBased":true,
+   "ItemNetWeight":"0.450",
+   "ItemWeightUnit":"KG",
+   "IncotermsClassification":"EXW",
+   "IncotermsTransferLocation":"MA",
+   "ReferenceDeliveryAddressID":"27159",
+   "IncotermsLocation1":"MA",
+   "ProductType":"1",
+   "to_ScheduleLine":
+   [
+    {
+     "DelivDateCategory":"1",
+     "ScheduleLineDeliveryDate":"2020-09-28T00:00:00",
+     "ScheduleLineOrderQuantity":"200.000",
+     "SchedLineStscDeliveryDate":"2020-09-28T00:00:00"
+    }
+   ]
+  }
+ ]
+}

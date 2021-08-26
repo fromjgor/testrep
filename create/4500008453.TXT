@@ -1,0 +1,51 @@
+ === 4500008453 === CC2
+{
+ "CompanyCode":"1010",
+ "PurchaseOrderType":"NB",
+ "Supplier":"S1030001",
+ "Language":"DE",
+ "PaymentTerms":"0004",
+ "PurchasingOrganization":"1010",
+ "PurchasingGroup":"001",
+ "DocumentCurrency":"EUR",
+ "ExchangeRate":"1.00000",
+ "PurchaseOrderDate":"2020-09-10T00:00:00",
+ "SupplyingSupplier":"S1030001",
+ "InvoicingParty":"S1030001",
+ "to_PurchaseOrderItem":
+ [
+  {
+   "PurchaseOrderItemText":"Handelsware 11, PD, normaler Handel",
+   "Material":"TG-D060",
+   "ManufacturerMaterial":"TG-D060",
+   "Plant":"1010",
+   "MaterialGroup":"L001",
+   "PurchasingInfoRecord":"5300000161",
+   "OrderQuantity":"30",
+   "PurchaseOrderQuantityUnit":"ST",
+   "OrderPriceUnit":"ST",
+   "OrderPriceUnitToOrderUnitNmrtr":"1",
+   "OrdPriceUnitToOrderUnitDnmntr":"1",
+   "NetPriceQuantity":"1",
+   "TaxDeterminationDate":"2020-09-15T00:00:00",
+   "PriceIsToBePrinted":true,
+   "IsCompletelyDelivered":true,
+   "PurchaseOrderItemCategory":"2",
+   "GoodsReceiptIsExpected":true,
+   "ItemNetWeight":"16.200",
+   "ItemWeightUnit":"KG",
+   "ItemVolume":"0.180",
+   "ItemVolumeUnit":"M3",
+   "ProductType":"1",
+   "to_ScheduleLine":
+   [
+    {
+     "DelivDateCategory":"1",
+     "ScheduleLineDeliveryDate":"2020-09-15T00:00:00",
+     "ScheduleLineOrderQuantity":"30.000",
+     "SchedLineStscDeliveryDate":"2020-09-15T00:00:00"
+    }
+   ]
+  }
+ ]
+}

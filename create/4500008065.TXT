@@ -1,0 +1,61 @@
+ === 4500008065 === CC2
+{
+ "CompanyCode":"1510",
+ "PurchaseOrderType":"NB",
+ "Supplier":"S1530001",
+ "Language":"JA",
+ "PaymentTerms":"0004",
+ "PurchasingOrganization":"1510",
+ "PurchasingGroup":"001",
+ "DocumentCurrency":"JPY",
+ "ExchangeRate":"1.00000",
+ "PurchaseOrderDate":"2020-09-04T00:00:00",
+ "CorrespncExternalReference":"PO dev",
+ "CorrespncInternalReference":"GSP",
+ "to_PurchaseOrderItem":
+ [
+  {
+   "PurchaseOrderItemText":"Limit Item",
+   "Plant":"1510",
+   "MaterialGroup":"P001",
+   "OrderPriceUnitToOrderUnitNmrtr":"1",
+   "OrdPriceUnitToOrderUnitDnmntr":"1",
+   "NetPriceAmount":"100000",
+   "NetPriceQuantity":"1",
+   "TaxCode":"V1",
+   "PriceIsToBePrinted":true,
+   "PurchaseOrderItemCategory":"A",
+   "AccountAssignmentCategory":"K",
+   "GoodsReceiptIsExpected":true,
+   "InvoiceIsExpected":true,
+   "InvoiceIsGoodsReceiptBased":true,
+   "RequisitionerName":"GSP",
+   "ProductType":"2",
+   "ExpectedOverallLimitAmount":"100000",
+   "OverallLimitAmount":"200000",
+   "to_ScheduleLine":
+   [
+    {
+     "DelivDateCategory":"1",
+     "ScheduleLineDeliveryDate":"2020-10-12T00:00:00",
+     "SchedLineStscDeliveryDate":"2020-10-12T00:00:00",
+     "PerformancePeriodStartDate":"2020-09-04T00:00:00",
+     "PerformancePeriodEndDate":"2020-10-12T00:00:00"
+    }
+   ],
+   "to_AccountAssignment":
+   [
+    {
+     "PurgDocNetAmount":"100000",
+     "GLAccount":"51100000",
+     "CostCenter":"15101101",
+     "GoodsRecipientName":"GSP",
+     "UnloadingPointName":"WDF11",
+     "ControllingArea":"A000",
+     "ProfitCenter":"YB600",
+     "FunctionalArea":"YB40"
+    }
+   ]
+  }
+ ]
+}

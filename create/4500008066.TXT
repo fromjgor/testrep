@@ -1,0 +1,64 @@
+ === 4500008066 === CC2
+{
+ "CompanyCode":"1710",
+ "PurchaseOrderType":"NB",
+ "Supplier":"S1730001",
+ "Language":"EN",
+ "PaymentTerms":"0004",
+ "PurchasingOrganization":"1710",
+ "PurchasingGroup":"001",
+ "DocumentCurrency":"USD",
+ "ExchangeRate":"1.00000",
+ "PurchaseOrderDate":"2020-09-04T00:00:00",
+ "CorrespncExternalReference":"PO dev",
+ "SupplyingSupplier":"S1730001",
+ "InvoicingParty":"S1730001",
+ "CorrespncInternalReference":"GSP",
+ "to_PurchaseOrderItem":
+ [
+  {
+   "PurchaseOrderItemText":"Limit Item",
+   "Plant":"1710",
+   "MaterialGroup":"P001",
+   "OrderPriceUnitToOrderUnitNmrtr":"1",
+   "OrdPriceUnitToOrderUnitDnmntr":"1",
+   "NetPriceAmount":"29637.50",
+   "NetPriceQuantity":"1",
+   "TaxCode":"I1",
+   "PriceIsToBePrinted":true,
+   "PurchaseOrderItemCategory":"A",
+   "AccountAssignmentCategory":"K",
+   "GoodsReceiptIsExpected":true,
+   "InvoiceIsExpected":true,
+   "InvoiceIsGoodsReceiptBased":true,
+   "TaxJurisdiction":"CA00000000",
+   "RequisitionerName":"GSP",
+   "ProductType":"2",
+   "ExpectedOverallLimitAmount":"29637.50",
+   "OverallLimitAmount":"35565.00",
+   "to_ScheduleLine":
+   [
+    {
+     "DelivDateCategory":"1",
+     "ScheduleLineDeliveryDate":"2020-11-12T00:00:00",
+     "SchedLineStscDeliveryDate":"2020-11-12T00:00:00",
+     "PerformancePeriodStartDate":"2020-09-04T00:00:00",
+     "PerformancePeriodEndDate":"2020-11-12T00:00:00"
+    }
+   ],
+   "to_AccountAssignment":
+   [
+    {
+     "PurgDocNetAmount":"29637.50",
+     "GLAccount":"51100000",
+     "CostCenter":"17101201",
+     "GoodsRecipientName":"GSP",
+     "UnloadingPointName":"WDF11",
+     "ControllingArea":"A000",
+     "ProfitCenter":"YB700",
+     "FunctionalArea":"YB20"
+    }
+   ]
+  }
+ ]
+}

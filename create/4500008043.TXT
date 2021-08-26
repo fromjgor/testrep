@@ -1,0 +1,64 @@
+ === 4500008043 === CC2
+{
+ "CompanyCode":"1010",
+ "PurchaseOrderType":"NB",
+ "Supplier":"S1030001",
+ "Language":"DE",
+ "PaymentTerms":"0004",
+ "PurchasingOrganization":"1010",
+ "PurchasingGroup":"001",
+ "DocumentCurrency":"EUR",
+ "ExchangeRate":"1.00000",
+ "PurchaseOrderDate":"2020-09-04T00:00:00",
+ "CorrespncExternalReference":"PO dev",
+ "SupplierRespSalesPersonName":"Mrs. Smith",
+ "SupplyingSupplier":"S1030001",
+ "InvoicingParty":"S1030001",
+ "CorrespncInternalReference":"GSP",
+ "to_PurchaseOrderItem":
+ [
+  {
+   "PurchaseOrderItemText":"Limit Item",
+   "Plant":"1010",
+   "MaterialGroup":"P001",
+   "OrderPriceUnitToOrderUnitNmrtr":"1",
+   "OrdPriceUnitToOrderUnitDnmntr":"1",
+   "NetPriceAmount":"25000.00",
+   "NetPriceQuantity":"1",
+   "TaxDeterminationDate":"2020-09-04T00:00:00",
+   "PriceIsToBePrinted":true,
+   "PurchaseOrderItemCategory":"A",
+   "AccountAssignmentCategory":"K",
+   "GoodsReceiptIsExpected":true,
+   "InvoiceIsExpected":true,
+   "InvoiceIsGoodsReceiptBased":true,
+   "RequisitionerName":"GSP",
+   "ProductType":"2",
+   "ExpectedOverallLimitAmount":"25000.00",
+   "OverallLimitAmount":"30000.00",
+   "to_ScheduleLine":
+   [
+    {
+     "DelivDateCategory":"1",
+     "ScheduleLineDeliveryDate":"2021-01-08T00:00:00",
+     "SchedLineStscDeliveryDate":"2021-01-08T00:00:00",
+     "PerformancePeriodStartDate":"2020-09-04T00:00:00",
+     "PerformancePeriodEndDate":"2021-01-08T00:00:00"
+    }
+   ],
+   "to_AccountAssignment":
+   [
+    {
+     "PurgDocNetAmount":"25000.00",
+     "GLAccount":"51100000",
+     "CostCenter":"10101201",
+     "GoodsRecipientName":"GSP",
+     "UnloadingPointName":"WDF11",
+     "ControllingArea":"A000",
+     "ProfitCenter":"YB700",
+     "FunctionalArea":"YB20"
+    }
+   ]
+  }
+ ]
+}
